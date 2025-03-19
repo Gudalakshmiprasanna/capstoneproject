@@ -157,7 +157,7 @@ public class JPetStore {
         FileInputStream fis = new FileInputStream(f);
         XSSFWorkbook w = new XSSFWorkbook(fis);
         XSSFSheet s = w.getSheetAt(0);
-        XSSFRow r=s.getRow(7);
+        XSSFRow r=s.getRow(8);
         String username = registrationPage.getCellValue(r.getCell(0));
         String password = registrationPage.getCellValue(r.getCell(1));
         String confirmpass = registrationPage.getCellValue(r.getCell(2));
